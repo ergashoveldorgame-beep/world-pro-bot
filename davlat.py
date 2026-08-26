@@ -16,7 +16,7 @@ from telegram.ext import (
 # 🔐 BOT TOKEN
 # =========================================================
 
-TOKEN = "8928289217:AAHpVm6ohPoRri7PpNuHl6UbSzKfPqBXfaw"
+TOKEN = os.getenv("BOT_TOKEN")
 
 # =========================================================
 # 👑 ADMIN ID
